@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutSection() {
     return (
         <section
-            className="relative z-20 h-screen flex flex-col items-center gap-6 justify-center md:justify-end pb-[25vh] text-center content text-white"
+            className="relative z-20 h-dvh flex flex-col items-center gap-6 justify-center md:justify-end md:pb-[25vh] text-center content text-white"
         >
 
             <div className="flex items-center gap-16">

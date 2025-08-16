@@ -141,7 +141,7 @@ export default function Loading({ onComplete }: LoadingScreenProps) {
             </div>
 
             {/* Loading Content */}
-            <div className="relative z-10 h-screen py-24 flex flex-col load-item items-center justify-between text-center">
+            <div className="relative z-10 h-dvh py-24 flex flex-col load-item items-center justify-between text-center">
                 <div />
                 <div className="load-item opacity-0">
                     <Image

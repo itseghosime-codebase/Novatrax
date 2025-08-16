@@ -7,7 +7,7 @@ import GameShaderLogo from '../Shaders/GameShader'
 
 export default function GameSection() {
     return (
-        <section className='grid md:grid-cols-2 items-center h-screen content relative z-40 py-24'>
+        <section className='grid md:grid-cols-2 items-center h-dvh content relative z-40'>
             <div className='flex flex-col items-center justify-center gap-3'>
                 <Our label='Our' />
                 <h2>GAMES</h2>

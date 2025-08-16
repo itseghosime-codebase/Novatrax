@@ -4,7 +4,7 @@ import AboutShaderLogo from '../Shaders/AboutShader'
 
 export default function AboutSectionTwo() {
     return (
-        <section className='h-screen content relative z-30 grid gap-10 md:grid-cols-2 items-center py-24'>
+        <section className='h-dvh content relative z-30 grid gap-10 md:grid-cols-2 items-center'>
             <div className='flex flex-col items-center justify-center md:gap-8'>
                 <h2 className="text-8xl font-mono animate-in mb-5">
                     WE ARE

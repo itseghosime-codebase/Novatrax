@@ -52,7 +52,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 h-screen w-2/3 bg-black/40 backdrop-blur-3xl border-l border-[#5D5D5D]/50 transform ${
+        className={`fixed top-0 right-0 h-dvh w-2/3 bg-black/40 backdrop-blur-3xl border-l border-[#5D5D5D]/50 transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out md:hidden flex flex-col items-start px-6 py-10 gap-8`}
       >

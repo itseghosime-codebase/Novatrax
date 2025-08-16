@@ -40,7 +40,7 @@ export default function HeroSection() {
     return (
         <section
             ref={heroSectionRef}
-            className="relative z-20 h-screen flex flex-col items-center justify-center md:justify-end pb-[27vh] gap-12 content"
+            className="relative z-20 h-dvh flex flex-col items-center justify-center md:justify-end md:pb-[27vh] gap-12 content"
         >
             <div ref={heroContentRef} className="flex flex-col items-center gap-6 md:gap-8">
                 {/* Hero Logo Image */}
