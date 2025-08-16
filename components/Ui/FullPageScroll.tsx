@@ -154,7 +154,7 @@ const FullPageScroll = forwardRef<FullPageScrollRef, FullPageScrollProps>(
           position: "fixed",
           inset: 0,
           width: "100vw",
-          height: "100vh",
+          height: "100dvh",
           overflow: "hidden",
         }}
       >
@@ -166,7 +166,7 @@ const FullPageScroll = forwardRef<FullPageScrollRef, FullPageScrollProps>(
                 if (el) sectionEls.current[i] = el;
               }}
               style={{
-                height: "100vh",
+                height: "100dvh",
                 width: "100vw",
                 opacity: i === 0 ? 1 : 0,
               }}
