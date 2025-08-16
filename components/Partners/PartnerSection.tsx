@@ -10,7 +10,7 @@ import PartnerShaderLogo from '../Shaders/PartnerShader'
 
 export default function PartnerSection() {
     return (
-        <section className='grid md:grid-cols-2 gap-10 items-center min-h-screen content relative z-40'>
+        <section className='grid md:grid-cols-2 gap-10 items-center h-screen content relative z-40'>
             <div className='flex items-center justify-center flex-col'>
                 <Our label='Our' />
                 <h2>PARTNERS</h2>

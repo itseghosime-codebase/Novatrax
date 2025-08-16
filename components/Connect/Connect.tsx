@@ -10,7 +10,7 @@ import SocialBg from '@/assets/Button/social-btn.svg'
 export default function Connect() {
     const data = new Date().getFullYear()
     return (
-        <section className='min-h-screen flex flex-col items-center justify-end gap-5 relative'>
+        <section className='h-dvh flex flex-col items-center justify-end gap-5 relative'>
             <div className="content">
                 <Image
                     src={LogoSingle}
