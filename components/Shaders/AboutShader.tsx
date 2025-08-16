@@ -57,7 +57,7 @@ function WavyLogo() {
 
 export default function AboutShaderLogo() {
   return (
-    <div className="w-full h-full max-h-[400px]">
+    <div className="hidden md:block w-full h-full max-h-[400px]">
       <Canvas camera={{ position: [0, 0, 6], fov: 50 }}>
         <ambientLight intensity={0.5} />
         <WavyLogo />
